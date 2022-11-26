@@ -1,0 +1,248 @@
+@import url(./fonts.css);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Inter-Regular', sans-serif;
+}
+
+
+.header {
+    background: black;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.container {
+    max-width: 1220px;
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 72px;
+}
+
+.logo {
+    color: white;
+    font-family: 'Inter-Bold', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.link {
+    color: white;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.banner {
+    background: url(../img/bg.png);
+    height: 850px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner__wrap {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 150px;
+}
+
+.banner__h {
+    font-family: 'Inter-Bold', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.banner__btn {
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Inter-Bold', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 42px;
+    padding: 15px 24px;
+    color: black;
+    transition: 0.3s;
+}
+
+/* el:hover изменяет элемент при наведении */
+.banner__btn:hover {
+    background: black;
+    color: white;
+}
+
+
+.about {
+    background: #0E1C25;
+    padding: 30px 0 112px;
+    color: white;
+}
+
+.about__h {
+    font-family: 'Inter-Bold', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 47px;
+}
+
+.about__wrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.about__desc {
+    max-width: 475px;
+    width: 100%;
+}
+
+.desc__h {
+    font-family: 'Inter-Medium', sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 42px;
+    margin-bottom: 62px;
+}
+
+.desc__p {
+    font-family: 'Inter-Medium', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+
+}
+
+.works {
+    background: #5C6B81;
+    padding: 43px 0 70px;
+    color: white;
+}
+
+.works__h {
+    font-family: 'Inter-Bold', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.card {
+    background: #B12B06;
+    border-radius: 10px;
+    padding: 15px 15px 27px;
+    width: 312px;
+    text-align: center;
+}
+
+.card__body {
+    margin-top: 20px;
+}
+
+.card__h {
+    font-family: 'Inter-Bold', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.card__p {
+    font-family: 'Inter-Bold', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    margin-bottom: 20px;
+
+}
+
+.card__btn {
+    background: white;
+    border-radius: 10px;
+    padding: 8px 22px;
+    color: black;
+    font-family: 'Inter-Bold', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    display: inline-block;
+}
+
+.works__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+
+.footer {
+    background: black;
+    color: white;
+    padding: 46px 0 62px;
+}
+
+.footer__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+
+}
+
+.footer__h {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.footer__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.footer__link img {
+    transition: 0.4s;
+}
+
+.footer__link img:hover {
+    transform: scale(1.4);
+}
